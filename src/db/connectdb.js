@@ -1,12 +1,11 @@
 const Sequelize = require('sequelize')
 
-const db = new Sequelize('socialmediadb','socialuser','socialpass', {
-    host: 'localhost',
+const db = new Sequelize({
+    database: 'socialmediadb',
+    username: 'socialuser',
+    password: 'socialpass',
     dialect: 'mysql',
-    // pool: {
-    //     min: 0,
-    //     max: 5
-    // }
+    host: 'localhost',
 })
 
 db.sync()
