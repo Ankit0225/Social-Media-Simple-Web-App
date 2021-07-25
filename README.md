@@ -7,7 +7,7 @@ mysql2
 sequelize
 ```
 
-Create Database with mysql
+Create Database with MySQL
 ```sql
 create database socialmediadb;
 
