@@ -8,11 +8,6 @@ const db = new Sequelize({
     host: 'localhost',
 })
 
-db.sync()
-
-.then(() => console.log('Database Established'))
-.catch((err) => console.log('Unable to Fetch Database', err))
-
 exports = module.exports = {
     db
 }
