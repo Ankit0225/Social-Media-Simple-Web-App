@@ -25,12 +25,6 @@ function generateRandomUser() {
   return `${adj}-${obj}`
 }
 
-console.log(generateRandomUser());
-console.log(generateRandomUser());
-console.log(generateRandomUser());
-console.log(generateRandomUser());
-console.log(generateRandomUser());
-
 module.exports = {
     generateRandomUser
 }
