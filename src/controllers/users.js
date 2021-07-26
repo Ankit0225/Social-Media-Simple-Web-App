@@ -10,6 +10,10 @@ async function createAnnonymusUser() {
 
     return user
 }
+
+module.exports = {
+    createAnnonymusUser
+}
 // testing Code
 // async function task () {
 //     console.log(await createAnnonymusUser());
