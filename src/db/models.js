@@ -1,7 +1,8 @@
-const Sequelize  = require('sequelize')
-
-const {db} = require('./connectdb')
+const Sequelize =  require('sequelize')
 const DataTypes = Sequelize.DataTypes
+// Advance testing
+// const {DataTypes}  = require('sequelize')
+const {db} = require('./connectdb')
 
 const ID_DEFINE = {
        type: DataTypes.INTEGER,
