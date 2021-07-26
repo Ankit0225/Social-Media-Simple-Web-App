@@ -21,9 +21,10 @@ flush privileges;
 ### Working tree
 
 ```
-src/
-|-- controllers
-|-- db
-|-- public
-|-- routes
+src
+├───controllers
+├───db
+├───public     
+├───routes     
+└───utils
 ```
