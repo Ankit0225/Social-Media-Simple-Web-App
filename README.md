@@ -22,9 +22,21 @@ flush privileges;
 
 ```
 src
-├───controllers
-├───db
-├───public     
-├───routes     
-└───utils
+├───controllers  # connecting routes to db operations
+├───db           # DB connections and model files
+├───public       # html,css and js files
+├───routes       # express middlewares (routes files)
+└───utils        # (random username files)
 ```
+
+### Project Features
+
+**Create Users**
+ creating a new user with a random username
+
+ **Posts**
+ lists existing posts, following filter support to Users
+
+ - filter by username
+
+ - filter by query contained in title (search by title)
