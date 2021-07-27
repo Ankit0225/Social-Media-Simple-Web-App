@@ -30,9 +30,12 @@ src
 ```
 
 ### Project Features
+### Users
 
 **Create Users**
  creating a new user with a random username
+
+### Posts
 
  **Posts**
  lists existing posts, following filter support to Users
@@ -40,3 +43,11 @@ src
  - filter by username
 
  - filter by query contained in title (search by title)
+
+ ### Comments
+
+ ***show all comments (of a user)***
+
+ ***show all comments (under a post)***
+
+ ***add a comment***
