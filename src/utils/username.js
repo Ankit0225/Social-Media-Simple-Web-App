@@ -23,7 +23,7 @@ function generateRandomUser() {
     
  const adj = USER[Math.floor(Math.random() * 7)];
  const obj = NAME[Math.floor(Math.random() * 7)];
-  return `${adj} ${obj}`
+  return `${adj}-${obj}`
 }
 
 module.exports = {

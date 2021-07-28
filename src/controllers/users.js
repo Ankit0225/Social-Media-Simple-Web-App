@@ -11,8 +11,17 @@ async function createAnnonymusUser() {
     return user
 }
 
+async function generateUserById(id) {
+    return await Users.findOne({ where: { id } })
+}
+async function generateUserByUsername(username) {
+    return await Users.findOne({ where: { username }  })
+}
+
 module.exports = {
-    createAnnonymusUser
+    createAnnonymusUser,
+    generateUserById,
+    generateUserByUsername
 }
 // testing Code
 // async function task () {
