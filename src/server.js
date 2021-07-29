@@ -1,8 +1,8 @@
 const express = require('express')
 // const path = require('path')
-const {db} = require('../db/models')
-const {UsersRoute} = require('../routes/users')
-const {PostsRoute} = require('../routes/posts')
+const {db} = require('./db/models')
+const {UsersRoute} = require('./routes/users')
+const {PostsRoute} = require('./routes/posts')
 
 
 const app = express()

@@ -9,6 +9,8 @@ const route = Router()
 route.get('/:id', async (req,res) => {
     let user;
     console.log(req.params.id);
+
+    
     if(isNaN(parseInt(req.params.id))){
         // when param is username
         const user = await generateUserByUsername(req.params.id)
