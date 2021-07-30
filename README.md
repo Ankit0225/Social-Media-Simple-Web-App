@@ -8,6 +8,7 @@ sequelize
 ```
 
 Create Database with MySQL
+
 ```sql
 create database socialmediadb;
 
@@ -51,3 +52,38 @@ src
  ***show all comments (under a post)***
 
  ***add a comment***
+
+
+ ### API Documentaton
+
+### `Users`
+
+1. `POST /users`
+ 
+ This Creates a new User with random username and an userId
+
+ 2. `GET /users/{userid}` 
+
+ Get a user with user id
+
+ 3 `GET /users/{username}`
+
+ Get an user with a given username
+
+
+### `Posts`
+
+1. `GET /posts`
+
+This will give all posts by everyone
+
+2. `POST /posts`
+
+This creates a new post.
+
+Required Field is 
+```
+userId*
+title*
+body*
+```
