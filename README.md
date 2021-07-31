@@ -21,7 +21,16 @@ flush privileges;
 
 ### Working tree
 
-```
+```shell
+# Frontend Working Tree
+
+public
+├───app
+├───components
+├───css
+└───js
+
+# Backend (Server)
 src
 ├───controllers  # connecting routes to db operations
 ├───db           # DB connections and model files
@@ -99,12 +108,4 @@ Semantic
 jQuery
 Popper.js
 ```
-### Frontend Working Tree
 
-```
-public
-├───app
-├───components
-├───css
-└───js
-```
