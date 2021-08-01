@@ -27,8 +27,7 @@ flush privileges;
 public
 ├───app
 ├───components
-├───css
-└───js
+└───css
 
 # Backend (Server)
 src
