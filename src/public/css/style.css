@@ -1,0 +1,29 @@
+#navbar{
+    padding-bottom: 0.5rem;
+    top: 0px;
+    position: sticky;
+    background-color: var(--bs-light);
+}
+#footer{
+    padding-bottom: 0.2rem;
+    bottom: 0px;
+    position: sticky;
+    background-color: var(--bs-light);
+}
+#content{
+    height: 2000px;
+}
+img{
+    margin-right: 4px;
+}
+.back-to-top{
+    position: absolute;
+    right: 0px;
+    width: 20%;
+}
+
+.ml-auto{
+    position: absolute;
+    top: 15px;
+    right: 80px;
+}
