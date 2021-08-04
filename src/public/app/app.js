@@ -4,6 +4,7 @@ $(() => {
     
     $('#navbar').load('./components/navbar.html', login)
     $('#footer').load('./components/footer.html')
+    $('#content').load('./components/posts.html')
    
     
   
