@@ -3,6 +3,7 @@
     top: 0px;
     position: sticky;
     background-color: var(--bs-light);
+    z-index: 1;
 }
 #footer{
     padding-bottom: 0.2rem;
@@ -11,8 +12,8 @@
     background-color: var(--bs-light);
 }
 #content{
-    height: 2000px;
-}
+   height: auto;
+} 
 img{
     margin-right: 4px;
 }
@@ -26,4 +27,7 @@ img{
     position: absolute;
     top: 15px;
     right: 80px;
+}
+a{
+    text-decoration: none;
 }
