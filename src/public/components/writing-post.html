@@ -4,21 +4,27 @@
     <!--Write Form Post Here  -->
     <form>
         <div class="form-group">
-            <label for="p-title">Post Title</label>
-            <input class="form-control form-control-sm"
+            <label class="fs-3" for="p-title">Post Title</label>
+            <br>
+            <input type="text" placeholder="Enter Title" class="form-control form-control-lg"
             id="p-title"
             rows="3"
-            >
+            ></input>
         </div>
+        <br>
+        
         <div class="form-group">
-            <label for="p-body"></label>
-            <label for="p-body">Post Title</label>
-            <input class="form-control form-control-lg"
+            <label class="fs-4" for="p-body">Write Post</label>
+            <br>
+            <textarea  type="text" placeholder="Write your Thoughts Here" class="form-control form-control-sm"
             id="p-body"
             rows="4"
-            >
+            ></textarea>
         </div>
     </form>
+    <br>
+    <br>
+    <button class="btn btn-outline-success" id="Post-btn" type="submit">Submit Post</button>
 </div>
 
 <script src="../app/writing-post.js"></script>
