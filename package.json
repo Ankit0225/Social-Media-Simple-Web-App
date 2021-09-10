@@ -18,11 +18,13 @@
   },
   "homepage": "https://github.com/Ankit0225/Social-Media-Simple-Web-App#readme",
   "dependencies": {
-    "chai": "^4.3.4",
     "express": "^4.17.1",
-    "mocha": "^9.1.1",
     "mysql2": "^2.2.5",
     "sequelize": "^6.6.5",
     "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.1.1"
   }
 }
