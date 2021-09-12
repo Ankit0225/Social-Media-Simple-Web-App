@@ -2,7 +2,15 @@ const Sequelize =  require('sequelize')
 const DataTypes = Sequelize.DataTypes
 // Advance testing
 // const {DataTypes}  = require('sequelize')
-const {db} = require('./connectdb')
+let db 
+if (process.env.NODE_ENV == testing) {
+    db = new Sequelize({
+        dialect: 'sqlite',
+        storage: __dirname + '/../../test/test.db',
+    })
+} else {
+    db = require('./connectdb')
+}
 
 const ID_DEFINE = {
        type: DataTypes.INTEGER,
